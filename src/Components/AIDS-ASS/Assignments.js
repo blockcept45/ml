@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 
 const AssignmentTable = () => {
   // Sample data
-  const [students, setStudents] = useState([
+  const [students] = useState([
     {
       enrollmentNo: '1099',
       name: 'Roshni Parihar',
