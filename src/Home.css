@@ -1,0 +1,63 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+.heading{
+    text-align: center;
+    font: 3em sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.admin{
+    float: right;
+    width: 140px;
+    margin-right: 30px;
+    border: 2px solid black;
+    border-radius: 12px;
+    text-align: center;
+    background-color: green;
+    color: white;
+}
+
+/* Home Page Styles */
+.home {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.home h1 {
+    color: #333;
+}
+
+/* Button Styles */
+.button {
+    background-color: #007bff; /* Bootstrap Primary Color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #0056b3; /* Darker shade for hover */
+}
+
+.totalclass{
+   margin-top: 90px;
+   text-align: center;
+}
+
+.assignments{
+    text-align: center;
+    margin-top: 40px;
+    color: orange;
+}
